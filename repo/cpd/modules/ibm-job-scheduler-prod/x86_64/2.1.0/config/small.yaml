@@ -1,3 +1,0 @@
-commands:
-- scale --replicas=1 deployment jobs-api
-- scale --replicas=1 deployment jobs-ui
