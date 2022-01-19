@@ -42,6 +42,9 @@ bricks:
   - name: lite-adm-setup
     version: 3.5.5
     type: module
+  - name: 0010-infra
+    version: 3.5.5
+    type: module
   - name: 0015-setup
     version: 3.5.5
     type: module
