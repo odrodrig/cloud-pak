@@ -17,7 +17,7 @@ description: this is our product
 # sub product have to be homogerious architucture
 architecture: x86_64
 #minimum version of cpd-cli for the assembly to install
-minCliVersion: 3.5.6
+minCliVersion: 3.5.5
 
 # This is for the new flag --override-config from cpd-cli
 # If the flag value matching the name here, the assembly override will use the matching one, rather than the default one above
@@ -42,11 +42,10 @@ bricks:
   - name: lite-adm-setup
     version: 3.5.5
     type: module
+  - name: 0010-infra
+    version: 3.5.5
+    type: module
   - name: 0015-setup
     version: 3.5.5
     type: module
-  - name: 0020-core
-    version: 3.5.5
-    type: module
-
 
